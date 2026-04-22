@@ -1,0 +1,11 @@
+{
+  "rule_id": "sast-test-console-log",
+  "name": "Test Rule: Console Log Detected",
+  "pattern": "console\\.log\\(",
+  "flags": "i",
+  "languages": ["javascript", "typescript"],
+  "severity": "info",
+  "category": "security-misconfiguration",
+  "description": "This is a test rule synced from GitHub to detect console.log.",
+  "remediation": "Remove console.log statements before pushing to production."
+}
