@@ -4,7 +4,7 @@
       "rule_id": "sast-test-console-log",
       "engine_target": "sast",
       "rule_name": "Test Rule: Console Log Detected",
-      "severity": "info",
+      "severity": "critical",
       "file_path": "rules/sast/test-console-log.json",
       "is_active": true
     }
