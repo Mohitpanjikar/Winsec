@@ -1,0 +1,11 @@
+{
+  "rule_id": "sast-test-console-writeline",
+  "name": "Test Rule: Console WriteLine Detected",
+  "pattern": "Console\\.WriteLine\\(",
+  "flags": "i",
+  "languages": ["csharp"],
+  "severity": "info",
+  "category": "security-misconfiguration",
+  "description": "This is a test rule synced from GitHub to detect Console.WriteLine.",
+  "remediation": "Remove Console.WriteLine statements before pushing to production."
+}

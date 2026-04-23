@@ -1,0 +1,5 @@
+
+
+# WinSec local scan artifacts
+.secureguard/
+.winsec/

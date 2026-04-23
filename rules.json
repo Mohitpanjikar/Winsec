@@ -7,6 +7,14 @@
       "severity": "critical",
       "file_path": "rules/sast/test-console-log.json",
       "is_active": true
+    },
+    {
+      "rule_id": "sast-test-console-writeline",
+      "engine_target": "sast",
+      "rule_name": "Test Rule: Console WriteLine Detected",
+      "severity": "critical",
+      "file_path": "rules/sast/test-console-writeline.json",
+      "is_active": true
     }
   ]
 }
